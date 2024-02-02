@@ -1,0 +1,46 @@
+/* Gaya khusus untuk GanttChart */
+.gantt-chart-container {
+  width: 800px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.gantt-task {
+  position: absolute;
+  height: 30px;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+}
+
+/* Gaya khusus untuk GanttPage */
+.gantt-page-container {
+  margin: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+/* Gaya tambahan untuk tabel minggu */
+.gantt-table {
+  width: 800px; /* Sesuaikan dengan lebar Gantt chart container */
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.gantt-table th {
+  border: 1px solid #ddd;
+  height: 30px;
+  background-color: #f2f2f2;
+  text-align: center;
+  line-height: 30px;
+}
+
+.gantt-table th:nth-child(odd) {
+  background-color: #e6e6e6;
+}
